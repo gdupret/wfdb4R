@@ -9,7 +9,3 @@ getvec_ <- function(filename) {
     .Call('wfdb4R_getvec_', PACKAGE = 'wfdb4R', filename)
 }
 
-rcpp_hello <- function() {
-    .Call('wfdb4R_rcpp_hello', PACKAGE = 'wfdb4R')
-}
-
