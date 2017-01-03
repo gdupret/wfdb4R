@@ -1,0 +1,16 @@
+Package: wfdb4R
+Type: Package
+Title: Wrapper to the wfdb library
+Version: 0.1.0
+Author: Georges Dupret
+Maintainer: Georges Dupret <georges.dupret@gmail.com>
+Description: wrap library functions from WFDB
+    See physionet.org
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports:
+    Rcpp (>= 0.12.8),
+    BH
+LinkingTo: Rcpp
+RoxygenNote: 5.0.1
