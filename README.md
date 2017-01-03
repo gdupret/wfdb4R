@@ -10,5 +10,5 @@ From R, first install the `devtools` library, then do
 
 ```
 library(devtools)
-install_github("gdupret/eplimited")
+install_github("gdupret/wfdb4R")
 ```
