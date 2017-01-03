@@ -1,6 +1,27 @@
 # wfdb4R
 
-wrapper around physionet wfdb library
+Wrapper around physionet wfdb library
+
+## Usage
+
+So far, only the `getvec` function to load a record is implemented.
+
+First download the database of interest (or a single record). See
+https://physionet.org/faq.shtml#downloading-databases for an
+explanation on how to do that.
+
+Second, load the `wfdb4R` library and load a record:
+
+```
+library(wfdb4R)
+ecg <- getvec("~/data/mitdb/100")
+str(ecg)
+```
+
+results:
+```
+num [1:2, 1:650000] 995 1011 995 1011 995 ...
+```
 
 ## Installation
 
