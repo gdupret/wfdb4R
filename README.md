@@ -9,7 +9,7 @@ So far, only the `getvec` function to load a record is implemented.
 First download the database of interest (or a single record). See
 https://physionet.org/faq.shtml#downloading-databases for an
 explanation on how to do that. Suppose you downloaded the MITDB
-database into your home directory, under `~/data/mitdb`
+database into your home directory, under `~/data/mitdb`.
 
 Second, to load record `100` from your local copy of MITDB, do:
 
